@@ -1,0 +1,13 @@
+train: /home/marek/Desktop/Dataset for Rust Detection/train/images
+val: /home/marek/Desktop/Dataset for Rust Detection/valid/images
+test: /home/marek/Desktop/Dataset for Rust Detection/test/images
+
+nc: 1
+names: ['corrosion']
+
+roboflow:
+  workspace: corrosion-l4cqs
+  project: corrosion-detection-npdhd
+  version: 7
+  license: MIT
+  url: https://universe.roboflow.com/corrosion-l4cqs/corrosion-detection-npdhd/dataset/7
