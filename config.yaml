@@ -2,12 +2,12 @@ train: /home/marek/Desktop/Dataset for Rust Detection/train/images
 val: /home/marek/Desktop/Dataset for Rust Detection/valid/images
 test: /home/marek/Desktop/Dataset for Rust Detection/test/images
 
-nc: 1
-names: ['corrosion']
+nc: 10
+names: ['Rust', 'car', 'copper corrosion', 'corroded-part', 'corrosion', 'iron rust', 'mild-corrosion', 'moderate-corrosion', 'rust', 'severe-corrosion']
 
 roboflow:
-  workspace: corrosion-l4cqs
-  project: corrosion-detection-npdhd
-  version: 7
-  license: MIT
-  url: https://universe.roboflow.com/corrosion-l4cqs/corrosion-detection-npdhd/dataset/7
+  workspace: rust-detection
+  project: rust-detection-38s6e
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rust-detection/rust-detection-38s6e/dataset/1
